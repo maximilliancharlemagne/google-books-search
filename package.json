@@ -1,0 +1,29 @@
+{
+  "name": "google-books-search",
+  "version": "1.0.0",
+  "description": "A MERN app to search for books in Google Books.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilliancharlemagne/google-books-search.git"
+  },
+  "keywords": [
+    "mern",
+    "google",
+    "books",
+    "react"
+  ],
+  "author": "Maxwell Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilliancharlemagne/google-books-search/issues"
+  },
+  "homepage": "https://github.com/maximilliancharlemagne/google-books-search#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
