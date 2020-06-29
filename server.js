@@ -15,9 +15,9 @@ app.get('*',(req,res) => {
   res.sendFile(join(__dirname,'client','build','index.html'))
 })
 
-// require('mongoose').connect(process.env.MONGODB_URI || process.env.LOCAL_URI, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// })
-// .then(() => app.listen(process.env.PORT || 3001))
-// .catch(err => console.error(err))
+require('mongoose').connect(process.env.MONGODB_URI || process.env.LOCAL_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => app.listen(process.env.PORT || 3001))
+.catch(err => console.error(err))
